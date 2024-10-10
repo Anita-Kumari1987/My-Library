@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.library_container{
+  width: 100vw;
+  height: 100vh;
+}
+h1{
+  color: white;
+  font-size: 7rem;
+  align-self: center;
+  text-align: center;
+  padding-top: 100px;
+  background-color: #78350f;
+}
+#book-list{
+  background-color: rgba(56, 56, 130, 0.5);
+  width: 50%;
+  height: 570px;
+  color: white;
+  align-items: flex-end;
+  margin-left: 20%;
+  margin-top: 20px;
+ 
+}
+#book-form{
+  width: 50%;
+  height: 400px;
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.button_container{
+  display: flex;
+  flex-direction: row;
+  background-image: url(Library_image.webp);
+}
+label{
+  padding-left: 20px;
+}
+#book_form{
+  width:600px;
+  height: 400px;
+  background-image: url(add\ image.avif);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  input{
+    width: 30px;
+  }
+#my_button{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  
+}
+  button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+input{
+  width: 300px;
+  height: 25px;
+  margin-left: 20px;
+}
+#status{
+  width: 150px;
+  height: 25px;
+  margin-left: 20px;
+}
+#submit{
+  height: 20px;
+  width: 120px;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+#newBookButton{
+  height: 50px;
+  width: 200px;
+  background-color: #78350f;
+  color: white;
+  padding: 10px;
+  margin-top: 20%;
+  margin-left:15% ;
+
+}
