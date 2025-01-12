@@ -78,6 +78,12 @@ input{
   height: 25px;
   margin-left: 20px;
 }
+input#title{
+  margin-left: 42px;
+}
+#pageCount{
+  margin-left: 25px;
+}
 #status{
   width: 150px;
   height: 25px;
